@@ -19,9 +19,9 @@ with st.sidebar:
     # B. Segundo el autor
     st.markdown("### 👨‍💻 Responsable del Proyecto")
     try:
-        st.image("imagen.jpg", width=150)
+        st.image("mi_foto.jpg", width=150)
     except:
-        st.image("imagen.jpg", width=100)
+        st.image("mi_foto.jpg", width=100)
     
     st.markdown(f"""
     **Ing. Edward Pérez Coello**
@@ -96,4 +96,5 @@ if archivo is not None:
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
 else:
+
     st.info("👋 **Bienvenido!.** Por favor, carge el archivo Excel en el menú de la izquierda para generar el diagnóstico normativo.")
